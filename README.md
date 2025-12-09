@@ -1,8 +1,8 @@
 <p align="center"> <img src="https://img.shields.io/badge/CardShield%20AI-Fraud%20Identification%20System-blueviolet?style=for-the-badge&logo=python&logoColor=white" /> </p> <h1 align="center">🛡️🔐 CardShield AI – Fraud Identification System</h1> <p align="center"> An advanced, end-to-end Machine Learning pipeline for detecting fraudulent credit card transactions using SMOTE, feature scaling, and optimized classification models. </p>
 
-# 🚀 Machine Learning + Streamlit Web App
+# <h1 align="center"> 🚀 Machine Learning + Streamlit Web App </p>
 
-# 🚀 Project Overview
+# 📖 Project Overview
 CardShield AI is a complete fraud-detection system built using machine learning to classify credit card transactions as fraudulent or legitimate.
 The system applies:
 - ✔ Data Cleaning & Preprocessing
