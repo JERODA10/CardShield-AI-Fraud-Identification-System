@@ -11,6 +11,24 @@ The system applies:
 - ✔ Performance Evaluation
 This project follows a clean, modular, industry-style ML pipeline suitable for deployment or integration into financial software.
 
+# 📁 Project Folder Structure :-
+<h2>
+CardShield-AI/
+│
+├── CardShield AI – Fraud Identification System.ipynb     # Main Jupyter Notebook
+│
+├── CardShield.py                                         # Primary Python source file
+├── CardShield2.py                                        # Additional script (testing/alternate version)
+│
+├── creditcard.xlsx                                       # Dataset (Excel format)
+│
+├── model.pkl                                             # Trained Random Forest model
+├── scaler.pkl                                            # StandardScaler object (fitted)
+│
+├── requirements.txt                                      # Required dependencies
+└── README.md 
+</pre>
+
 # 📂 Dataset
 This notebook uses the popular Credit Card Fraud Detection Dataset, containing:
 - 284,807 transactions
