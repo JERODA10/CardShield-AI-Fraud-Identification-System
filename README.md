@@ -131,3 +131,12 @@ By balancing the dataset with SMOTE and applying optimized models, the system ac
 
 This project can be extended into real-time fraud detection systems or banking-level transaction monitoring tools.
 
+# 👨‍💻 Developed By
+# Ayush 
+-----------------------------------------------
+- 💼LinkedIn: https://linkedin.com/in/ayush130
+- 💻GitHub: https://github.com/ayush13-0
+- ✉️Email- bhanuseenu914@gmail.com
+
+# 📜 License
+- This project is licensed under the **MIT License**.
