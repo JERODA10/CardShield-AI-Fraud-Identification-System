@@ -25,7 +25,7 @@ This project follows a clean, modular, industry-style ML pipeline suitable for d
 ├── scaler.pkl                                            # StandardScaler object (fitted)
 │
 ├── requirements.txt                                      # Required dependencies
-└── README.md <pre>
+└── README.md </pre>
 
 # 📂 Dataset
 This notebook uses the popular Credit Card Fraud Detection Dataset, containing:
@@ -55,8 +55,8 @@ Implemented models:
 - Random Forest Classifier (Optimized: n_estimators=500)
 
 # 🤖 Best Performing Model (Recommended)
-<h2>
-RandomForestClassifier(
+
+<h2> RandomForestClassifier(
     n_estimators=500,
     max_depth=None,
     min_samples_split=2,
