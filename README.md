@@ -126,10 +126,8 @@ The model is evaluated using:
 - ✔ Fully interpretable workflow
 
 # 📜 Conclusion
-**CardShield AI successfully identifies fraudulent credit card transactions using a robust machine-learning workflow.
-By balancing the dataset with SMOTE and applying optimized models, the system achieves strong fraud-detection performance while maintaining reliability and interpretability.**
+CardShield AI provides a complete and powerful fraud detection solution. With exceptionally high accuracy and an intuitive Streamlit interface, it stands as a strong prototype ready for real-world deployment. It lays the foundation for scalable enhancements including real-time scoring, cloud APIs, and deep learning models.
 
-This project can be extended into real-time fraud detection systems or banking-level transaction monitoring tools.
 
 # 👨‍💻 Developed By
 # Ayush 
